@@ -1,3 +1,7 @@
+---
+title: Hjem
+---
+
 # Tittel readme
 
 ## Undertittel
