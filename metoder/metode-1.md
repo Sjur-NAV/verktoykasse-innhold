@@ -1,3 +1,7 @@
+---
+title: Metode 1
+---
+
 # Tittel metode 1
 
 ## Undertittel
