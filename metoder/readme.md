@@ -12,4 +12,4 @@ Incididunt quis duis excepteur quis. Ut occaecat exercitation duis quis mollit c
 
 Tester her om like titter fungerer med ankerlinker
 
-<Alertstripe>Alert</Alertstripe>
+<Alertstripe type="info">Alert</Alertstripe>
