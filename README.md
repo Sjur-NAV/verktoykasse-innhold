@@ -69,6 +69,18 @@ title: Maler
 Tekstblokk som vil bli lagt under undertittellen (<p>)
 ```
 
+## Hvordan jobbe med innhold
+
+Når man lager en ny fil eller mappe kan man ikke bare pushe dette rett på prod. Istedenfor må man opprette en pull-request slik som eksemplet: 
+![Screenshot 2021-06-16 at 19 13 14](https://user-images.githubusercontent.com/26967723/122263797-1f19b100-ced7-11eb-9a4e-25b3aa37c277.png)
+
+Da får andre muligheten til å verifisere at innholdet ser greit ut før det merges og sendes til prod. man kan også lage det som en "draft pr" hvis det er mye som må fikses før det trenger å bli godkjent.
+
+Man kan da velge "branchen" som pull requesten ligger på for å jobbe videre med innholdet før man vil kjøre det ut i prod (her vil det være "sidemaler").
+![Screenshot 2021-06-16 at 19 18 46](https://user-images.githubusercontent.com/26967723/122264596-ff36bd00-ced7-11eb-9e2b-7242f4114fd7.png)
+
+
+
 
 ## Kontakt
 
