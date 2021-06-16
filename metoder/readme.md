@@ -2,7 +2,7 @@
 title: Hjem
 ---
 
-# Tittel readme
+# Tittel Dette er en placeholder
 
 ## Undertittel
 
