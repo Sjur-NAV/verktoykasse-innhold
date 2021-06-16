@@ -37,13 +37,13 @@ I eksemplet under vil det her bli opprettet en mappe "sidemaler" med filen "read
 
 ### Strukturerning av innhold
 
-Løsningen støtter bare **1** nivå for nå, dette vil si at man ikke kan nøste mapper slikt: "/sidemaler/produktsider/side-1".
+Løsningen støtter bare **1** nivå for nå, dette vil si at man ikke kan nøste mapper slikt: "/sidemaler/produktsider/side-1.md".
 
 I hver mappe regnes filen med navn "readme.md" som "forsiden" til denne underkategorien. Dette vil si at "sidemaler/readme.md" vil vises på design.nav.no/sidemaler
 
 Andre filer som har eks navn: "side-1.md" vil da ligge på design.nav.no/sidemaler/side-1. 
 
-**Bare filer med formatet: "side 1.md" eller "side-1.md" er lovt.**
+**Bare filer med formatet: "side 1.md" eller "side-1.md" er mulig.**
 
 ### Innhold i hver fil
 
@@ -55,7 +55,7 @@ title: Hjem
 ---
 ```
 
-Eksemplet under vil ha en sidetittel, en undertittel med testkinnhold under. I tillegg så vil linken i sidemenyen si "Maler"
+Eksemplet under vil ha en sidetittel, en undertittel med tekstinnhold under. I tillegg så vil linken i sidemenyen si "Maler"
 
 ```markdown
 ---
