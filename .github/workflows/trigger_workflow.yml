@@ -10,5 +10,5 @@ jobs:
       - uses: peter-evans/repository-dispatch@v1.1.1
         with:
           repository: navikt/nav-frontend-moduler
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.KEN_PAT_VK_INNHOLD }}
           event-type: new-content
