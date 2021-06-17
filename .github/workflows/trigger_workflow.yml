@@ -1,7 +1,7 @@
 name: Trigger publish to dev
 on:
   push:
-    branches: main
+    branches: dev
 jobs:
   ci:
     name: Trigger build & deploy to dev
