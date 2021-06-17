@@ -1,0 +1,14 @@
+name: Trigger publish to dev
+on:
+  push:
+    branches: main
+jobs:
+  ci:
+    name: Trigger build & deploy to dev
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peter-evans/repository-dispatch@v1.1.1
+        with:
+          repository: navikt/nav-frontend-moduler
+          token: ${{ secrets.ACCESS_TOKEN }}
+          event-type: new-content
